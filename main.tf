@@ -6,5 +6,5 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   key_name               = "vinod_2023_new"
   vpc_security_group_ids = ["sg-05a77fe141d5ea296"]
-  user_data = file("jenkins.sh")
+  user_data = file("Jenkins.sh")
 }
